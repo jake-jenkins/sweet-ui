@@ -1,1 +1,443 @@
-/* A selection of components */
+/* Automatic Styles */
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;800&display=swap");
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+  /* font-family: "Istok Web", sans-serif; */
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #425563;
+  font-weight: 500;
+}
+
+/* Box */
+
+.nhs-box {
+  border: solid 1px #fff;
+  border-radius: 5pt 10pt 5pt 10pt;
+  margin: 20px 0px;
+  background: #ccdff1;
+}
+
+.nhs-box header {
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 15px 20px;
+  border-radius: 5pt 10pt 0pt 0pt;
+  background: #005eb8;
+  color: #fff;
+}
+
+.nhs-box p {
+  padding: 10px 20px 0px 20px;
+}
+
+/* nhs-btn */
+
+.nhs-btn-sm {
+  padding: 6px 14px;
+  color: white;
+  background: #005eb8;
+  text-decoration: none;
+  border-radius: 5pt 10pt 5pt 10pt;
+  display: inline-block;
+  font-size: 0.9rem;
+  margin: 10px 0px;
+}
+
+.nhs-btn {
+  padding: 10px 20px;
+  color: white;
+  background: #005eb8;
+  text-decoration: none;
+  border-radius: 5pt 10pt 5pt 10pt;
+  display: inline-block;
+  font-size: 1.2rem;
+  margin: 10px 0px;
+}
+
+.nhs-btn-md {
+  padding: 14px 30px;
+  color: white;
+  background: #005eb8;
+  text-decoration: none;
+  border-radius: 5pt 10pt 5pt 10pt;
+  font-size: 1.4rem;
+  display: inline-block;
+  margin: 10px 0px;
+}
+
+.nhs-btn-lg {
+  padding: 18px 50px;
+  color: white;
+  background: #005eb8;
+  text-decoration: none;
+  border-radius: 5pt 10pt 5pt 10pt;
+  font-size: 1.6rem;
+  display: inline-block;
+  margin: 10px 0px;
+}
+
+/* nhs-alert */
+
+.nhs-alert-warning {
+  border: solid 1px #fff;
+  border-radius: 5pt 10pt 5pt 10pt;
+  margin: 20px 0px;
+  padding: 14px 20px;
+  background: #fae100;
+  cursor: default;
+}
+
+.nhs-alert-danger {
+  border: solid 1px #fff;
+  border-radius: 5pt 10pt 5pt 10pt;
+  margin: 20px 0px;
+  padding: 14px 20px;
+  background: #da291c;
+  color: #fff;
+  cursor: default;
+}
+
+.nhs-alert-success {
+  border: solid 1px #fff;
+  border-radius: 5pt 10pt 5pt 10pt;
+  margin: 20px 0px;
+  padding: 14px 20px;
+  background: #009639;
+  color: #fff;
+  cursor: default;
+}
+
+/* nhs-hero */
+.nhs-hero {
+  text-align: center;
+  color: #fff;
+  height: 350px;
+  display: block;
+  border-radius: 10pt 20pt;
+  padding-top: 150px;
+  margin-bottom: 100px;
+}
+
+.nhs-hero > h1 {
+  color: #fff;
+  font-size: 4rem;
+}
+
+/* nhs-tag */
+
+.nhs-tag {
+  padding: 6px 12px 6px 12px;
+  margin: 2px 4px 2px 2px;
+  display: inline-block;
+  border-radius: 5pt 10pt 5pt 10pt;
+  background: #005eb8;
+  color: #fff;
+  cursor: default;
+}
+
+/* nhs-tabs */
+
+.nhs-tabs {
+  display: flex;
+  flex-wrap: wrap;
+}
+.nhs-tabs label {
+  order: 1;
+  display: block;
+  padding: 1rem 2rem;
+  margin-right: 0.1rem;
+  cursor: pointer;
+  background: #425563;
+  color: #fff;
+  font-weight: bold;
+  transition: background ease 0.2s;
+  border-radius: 5pt 10pt 0pt 0pt;
+}
+.nhs-tabs .tab {
+  order: 99;
+  flex-grow: 1;
+  width: 100%;
+  display: none;
+  padding: 1rem;
+  background: #e8edee;
+  border-radius: 0pt 10pt 5pt 10pt;
+}
+.nhs-tabs input[type="radio"] {
+  display: none;
+}
+.nhs-tabs input[type="radio"]:checked + label {
+  background: #e8edee;
+  color: #000;
+}
+.nhs-tabs input[type="radio"]:checked + label + .tab {
+  display: block;
+}
+
+/* nhs-list */
+
+/* nhs-tooltip */
+
+.nhs-tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.nhs-tooltip .nhs-tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 5pt 10pt 5pt 10pt;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.nhs-tooltip:hover .nhs-tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* nhs-table */
+.nhs-table {
+  border-collapse: collapse;
+  width: 100%;
+  border-width: 1px;
+  border-color: #425563;
+  border-bottom-style: solid;
+}
+
+.nhs-table td,
+.nhs-table th {
+  padding: 12px;
+}
+
+.nhs-table tr:nth-child(even) {
+  background-color: #e8edee;
+}
+
+.nhs-table tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+.nhs-table tr:hover {
+  background-color: #d8f0fc;
+}
+
+.nhs-table th {
+  padding-top: 16px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #425563;
+  color: white;
+}
+/* nhs-dropdown */
+.nhs-dropdown {
+  position: relative;
+}
+.nhs-dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #e8edee;
+  min-width: 160px;
+  padding: 2px 4px;
+  z-index: 1;
+  border-radius: 5% 10%;
+}
+.nhs-dropdown-content-right {
+  display: none;
+  position: absolute;
+  right: 0px;
+  background-color: #e8edee;
+  min-width: 160px;
+  padding: 2px;
+  z-index: 1;
+  border-radius: 5pt 0pt 5pt 10pt;
+}
+.nhs-dropdown:hover .nhs-dropdown-content {
+  display: block;
+}
+.nhs-dropdown:hover .nhs-dropdown-content-right {
+  display: block;
+}
+.nhs-dropdown a {
+  display: block;
+  padding: 12px;
+  margin: 5px;
+  background: #425563;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5pt 10pt;
+  font-size: 1rem;
+}
+
+/* nhs-modal */
+.nhs-modal {
+  background: #ffffff;
+  border-radius: 5pt 10pt;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  left: 50%;
+  max-width: 90%;
+  pointer-events: none;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 30em;
+  text-align: left;
+  max-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.nhs-modal .nhs-modal-close {
+  align-items: center;
+  color: #111827;
+  display: flex;
+  height: 4.5em;
+  justify-content: center;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 4.5em;
+  box-sizing: border-box;
+}
+.nhs-modal .nhs-modal-close svg {
+  display: block;
+  box-sizing: border-box;
+}
+.nhs-modal .nhs-modal-title {
+  color: #111827;
+  padding: 1.5em 2em;
+  pointer-events: all;
+  position: relative;
+  width: calc(100% - 4.5em);
+  box-sizing: border-box;
+}
+.nhs-modal .nhs-modal-title h1 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: normal;
+  box-sizing: border-box;
+}
+.nhs-modal .nhs-modal-content {
+  border-top: 1px solid #e0e0e0;
+  padding: 2em;
+  pointer-events: all;
+  overflow: auto;
+  box-sizing: border-box;
+}
+.nhs-modal-overlay {
+  transition: opacity 0.2s ease-out;
+  pointer-events: none;
+  background: rgba(15, 23, 42, 0.8);
+  position: fixed;
+  opacity: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  top: 0;
+  box-sizing: border-box;
+}
+details[open] .nhs-modal-overlay {
+  pointer-events: all;
+  opacity: 0.5;
+  box-sizing: border-box;
+}
+details summary:focus {
+  outline: none;
+  box-sizing: border-box;
+}
+details summary::-webkit-details-marker {
+  display: none;
+  box-sizing: border-box;
+}
+details > summary {
+  list-style: none;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+/* Layout */
+body > header {
+  background: #005eb8;
+  color: #fff;
+}
+
+header > div {
+  padding: 10px 15px;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+header > div > div {
+  width: 100%;
+  text-align: center;
+}
+
+header > div > div:nth-child(1) {
+  font-size: 2.8rem;
+  font-weight: 400;
+  text-align: left;
+  flex-shrink: 1;
+  min-width: 100px;
+}
+
+header > div > div img {
+  margin-right: 8px;
+}
+
+header > div > div:nth-last-of-type(1) {
+  text-align: end;
+  flex-shrink: 1;
+}
+
+main {
+  min-height: Calc(100vh - 161px);
+  padding: 20px 10px;
+  margin: auto;
+  max-width: 1250px;
+}
+
+main section {
+  padding: 100px 0px 100px 0px;
+  border-radius: 20pt 40pt;
+}
+
+footer {
+  padding: 15px;
+  background: #d9dde0;
+  min-height: 20px;
+  text-align: center;
+  color: #000;
+  font-size: 0.9rem;
+}
+
+/* Some Resets */
+.nhs-btn:hover,
+.nhs-btn-sm:hover,
+.nhs-btn-md:hover,
+.nhs-btn-lg:hover {
+  color: #fff;
+}
