@@ -431,60 +431,6 @@ details > summary::-webkit-details-marker {
 }
 
 /* Layout */
-body > header {
-  background: #005eb8;
-  color: #fff;
-}
-
-header > div {
-  padding: 10px 15px;
-  display: flex;
-  align-items: center;
-  height: 100%;
-}
-
-header > div > div {
-  width: 100%;
-  text-align: center;
-}
-
-header > div > div:nth-child(1) {
-  font-size: 2.8rem;
-  font-weight: 400;
-  text-align: left;
-  flex-shrink: 1;
-  min-width: 100px;
-}
-
-header > div > div img {
-  margin-right: 8px;
-}
-
-header > div > div:nth-last-of-type(1) {
-  text-align: end;
-  flex-shrink: 1;
-}
-
-main {
-  min-height: Calc(100vh - 161px);
-  padding: 20px 10px;
-  margin: auto;
-  max-width: 1250px;
-}
-
-main section {
-  padding: 100px 0px 100px 0px;
-  border-radius: 20pt 40pt;
-}
-
-footer {
-  padding: 15px;
-  background: #d9dde0;
-  min-height: 20px;
-  text-align: center;
-  color: #000;
-  font-size: 0.9rem;
-}
 
 /* Some Resets */
 .nhs-btn:hover,
