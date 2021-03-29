@@ -250,6 +250,7 @@ h5 {
   background-color: #425563;
   color: white;
 }
+
 /* nhs-dropdown */
 .nhs-dropdown {
   position: relative;
@@ -378,6 +379,57 @@ details > summary::-webkit-details-marker {
   display: none;
 }
 
+/* Patient Banner */
+.pt-banner {
+  border-radius: 5pt 10pt 0pt 0pt;
+  background: rgba(0, 94, 184, 0.8);
+  color: #fff;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+}
+
+#pt-ext1 {
+  grid-area: 1 / 1 / 2 / 2;
+}
+#pt-ext2 {
+  grid-area: 1 / 2 / 2 / 3;
+}
+#pt-ext3 {
+  grid-area: 1 / 3 / 2 / 4;
+}
+#pt-ext4 {
+  grid-area: 1 / 4 / 2 / 5;
+}
+
+.pt-banner-ext {
+  border-radius: 0pt 0pt 5pt 10pt;
+  background: rgba(0, 94, 184, 0.2);
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+}
+
+#pt-name {
+  grid-area: 1 / 1 / 2 / 4;
+  font-size: 1.2rem;
+}
+#pt-crn {
+  grid-area: 1 / 4 / 2 / 5;
+}
+#pt-nhs {
+  grid-area: 1 / 5 / 2 / 6;
+}
+#pt-alerts {
+  grid-area: 2 / 1 / 3 / 6;
+}
+
 /* Layout */
 body > header {
   background: #005eb8;
@@ -440,4 +492,44 @@ footer {
 .nhs-btn-md:hover,
 .nhs-btn-lg:hover {
   color: #fff;
+}
+
+/* Responsive Small Screens */
+@media only screen and (max-width: 640px) {
+  .pt-banner {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    padding: 10px;
+  }
+
+  .pt-banner-ext {
+    grid-template-rows: repeat(2, 1fr);
+    padding: 10px;
+  }
+
+  #pt-name {
+    grid-area: 1 / 1 / 2 / 3;
+  }
+  #pt-crn {
+    grid-area: 2 / 1 / 3 / 2;
+  }
+  #pt-nhs {
+    grid-area: 2 / 2 / 3 / 3;
+  }
+  #pt-alerts {
+    grid-area: 3 / 1 / 4 / 3;
+  }
+
+  #pt-ext1 {
+    grid-area: 1 / 1 / 2 / 3;
+  }
+  #pt-ext2 {
+    grid-area: 1 / 3 / 2 / 5;
+  }
+  #pt-ext3 {
+    grid-area: 2 / 1 / 3 / 3;
+  }
+  #pt-ext4 {
+    grid-area: 2 / 3 / 3 / 5;
+  }
 }
