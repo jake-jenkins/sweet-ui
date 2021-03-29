@@ -55,6 +55,8 @@
             align-items: center;
             justify-content: center;
             background: #fff !important;
+            border-bottom: 3px solid #F7F8F9;
+            margin-bottom: 20px;
         }
 
         header > div {
@@ -79,9 +81,9 @@
 
         .logo {
             text-align: left;
-            font-size: 5rem;
+            font-size: 4rem;
             padding: 0px 0px 0px 15px;
-            max-width: 250px;
+            max-width: 190px;
         }
 
         .content {
@@ -89,10 +91,14 @@
         }
 
         aside {
-            max-width: 250px;
+            max-width: 230px;
             min-height: Calc(100vh - 161px);
-            padding: 20px 5px;
-            margin: 0px 20px 0px 0px;
+            padding: 0px 15px;
+        }
+
+        aside p {
+            font-weight: 600;
+            margin-bottom: 2px;
         }
 
         aside a {
@@ -101,7 +107,7 @@
             margin: 5px 0px 0px -10px;
             text-decoration: none;
             color: #292929;
-            width:100%;
+            width: 100%;
         }
 
         aside a:hover {
@@ -196,7 +202,7 @@
 </head>
 <body>
     <header>
-        <div class="logo fancy-text"><a href="/">cwsa.</a></div>
+        <div class="logo fancy-text"><a href="/">CWSA</a></div>
         <div class="search">
             <input placeholder="Patient Search" />
         </div>
@@ -214,23 +220,23 @@ Mobile Menu
     </header>
     <div class="content">
     <aside>
-        <a href="">Details</a>
+        <p>Details</p>
         <nav>
             <a href="">Contact</a>
             <a href="">Next of Kin</a>
             <a href="">GP</a>
         </nav>
-        <a href="">Interactions</a>
+        <p>Interactions</p>
         <nav>
             <a href="">Appointments</a>
             <a href="">Admissions</a>
         </nav>
-        <a href="">Documents</a>
+        <p>Documents</p>
         <nav>
             <a href="">Notes</a>
             <a href="">eForms</a>
         </nav>
-        <a href="">Results</a>
+        <p>Results</p>
     <nav>
         <a href="">Pathology</a>
         <a href="">Radiology</a>

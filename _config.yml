@@ -1,4 +1,4 @@
-title: Sweet UI
+title: NHS UI Components
 author:
   name: Jake Jenkins
   email: sweet@jnx.app
@@ -7,11 +7,16 @@ description: > # this means to ignore newlines until "show_excerpts:"
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 
-show_excerpts: false 
+show_excerpts: false
+
+collections:
+  components:
+    output: true
+
 minima:
   date_format: "%b %-d, %Y"
 
 theme: minima
 
 plugins:
- - jekyll-seo-tag
+  - jekyll-seo-tag
