@@ -11,7 +11,9 @@
     </nav>
     <p>Components</p>
     <nav>
-        <a href="">Layout</a>
-        <a href="">eForms</a>
+        {% for component in site.components %}
+    <a href="{{ component.url }}">
+      {{ component.title }}
+    </a>
     </nav>
 </aside>
