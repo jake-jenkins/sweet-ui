@@ -1,11 +1,9 @@
-title: Sweet UI Components
+title: sweet.ui
 author:
   name: Jake Jenkins
   email: sweet@jnx.app
 description: > # this means to ignore newlines until "show_excerpts:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  UI Components built for NHS Apps and Websites.
 
 show_excerpts: false
 
