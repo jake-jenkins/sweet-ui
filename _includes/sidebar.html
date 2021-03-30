@@ -1,12 +1,14 @@
 <aside>
-    <p>Details</p>
-    <nav>
+
         <a href="/">Introduction</a>
-    </nav>
+
     <p>Colours</p>
     <nav>
-        <a href="">Background</a>
-        <a href="">Text</a>
+        {% for colour in site.colours %}
+        <a href="{{ colour.url }}">
+          {{ colour.title }}
+        </a>
+        {% endfor %}
     </nav>
     <p>Components</p>
     <nav>

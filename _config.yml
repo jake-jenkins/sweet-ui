@@ -12,6 +12,8 @@ show_excerpts: false
 collections:
   components:
     output: true
+  colours:
+    output: true
 
 minima:
   date_format: "%b %-d, %Y"
