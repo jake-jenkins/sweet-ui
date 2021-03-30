@@ -20,11 +20,3 @@ Adding NHS UI Components to an app or site is simple by adding some lines into y
    <br />
 
 #### Add inside &lt;head&gt; tag
-
-```html
-<link rel="stylesheet" href="https://nhs.pages.dev/css/nhs-components.css" />
-<link rel="stylesheet" href="https://nhs.pages.dev/css/nhs-colours.css" />
-
-<!-- Optional to add FontAwesome Icons -->
-<link rel="stylesheet" href="https://nhs.pages.dev/css/fa/all.min.cs.css" />
-```
