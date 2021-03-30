@@ -3,8 +3,6 @@ layout: component
 title: "NHS Colours"
 ---
 
-# Colours
-
 Provided by NHS Brand Guidelines, in priority order. These classes will add background colour to any elements.
 
 ### Core Colours

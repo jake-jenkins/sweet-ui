@@ -4,7 +4,7 @@ title: "Home"
 ---
 
 <div class="nhs-hero nhs-fancy">
-<h1>NHS UI Components</h1>
+<h1>Sweet UI Components</h1>
 </div>
 
 # Introduction
@@ -20,3 +20,10 @@ Adding NHS UI Components to an app or site is simple by adding some lines into y
    <br />
 
 #### Add inside &lt;head&gt; tag
+
+`<link rel="stylesheet" href="https://sweet.pages.dev/css/components.css">
+
+<link rel="stylesheet" href="https://sweet.pages.dev/css/colours.css">
+
+<!-- Optional to add FontAwesome Icons -->
+<link rel="stylesheet" href="https://sweet.pages.dev/css/fa/all.min.cs.css">`
