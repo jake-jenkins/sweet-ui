@@ -23,13 +23,13 @@ Adding sweet.ui Components to an app or site is simple by adding some lines into
 #### Add inside &lt;head&gt; tag
 
 <div id="code">
-<p>&lt;link rel="stylesheet" href="https://sweet.pages.dev/css/components.css"&gt;<br />&lt;link rel="stylesheet" href="https://sweet.pages.dev/css/colours.css"&gt;<br />&lt;link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" /&gt;</p>
+<p>&lt;link rel="stylesheet" href="https://sweet.mvp.wales/css/components.css"&gt;<br />&lt;link rel="stylesheet" href="https://sweet.mvp.wales/css/colours.css"&gt;<br />&lt;link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" /&gt;</p>
 </div>
 
 #### Add above &lt;/body&gt; tag
 
 <div id="code">
-<p>&lt;script src="https://sweet.pages.dev/js/scripts.js"&gt;&lt;/script&gt;</p>
+<p>&lt;script src="https://sweet.mvp.wales/js/scripts.js"&gt;&lt;/script&gt;</p>
 </div>
 
 <script>
