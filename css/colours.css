@@ -1,0 +1,80 @@
+.nhs-blue {
+  background-color: #005eb8 !important;
+  color: #fff !important;
+}
+.nhs-bright-blue {
+  background: #0072ce !important;
+  color: #fff !important;
+}
+.nhs-dark-blue {
+  background: #003087 !important;
+  color: #fff !important;
+}
+.nhs-light-blue {
+  background-color: #ccdff1 !important;
+  color: #000 !important;
+}
+
+.nhs-light-green {
+  background-color: #ccead7 !important;
+}
+.nhs-green {
+  background-color: #009639 !important;
+  color: #fff !important;
+}
+.nhs-dark-green {
+  background: #006747 !important;
+  color: #fff !important;
+}
+
+.nhs-light-yellow {
+  background-color: #fef9cc !important;
+  color: #000 !important;
+}
+.nhs-yellow {
+  background-color: #fae100 !important;
+  color: #000 !important;
+}
+
+.nhs-light-red {
+  background-color: #f8d4d2 !important;
+  color: #000 !important;
+}
+
+.nhs-red {
+  background-color: #da291c !important;
+  color: #fff !important;
+}
+
+.nhs-light-grey {
+  background-color: #e8edee !important;
+  color: #000 !important;
+}
+.nhs-dark-grey {
+  background-color: #425563 !important;
+  color: #fff !important;
+}
+
+.nhs-black {
+  background: #231f20 !important;
+  color: #fff !important;
+}
+
+.nhs-fancy {
+  background-image: linear-gradient(
+    70.6deg,
+    rgba(172, 30, 255, 1) 0.3%,
+    rgba(65, 35, 251, 1) 55.8%,
+    rgba(35, 251, 224, 1) 105.1%
+  ) !important;
+  color: #fff !important;
+}
+
+.nhs-fancy2 {
+  background-image: linear-gradient(
+    109.6deg,
+    rgba(119, 44, 232, 0.68) 11.5%,
+    rgba(119, 44, 232, 1) 91.2%
+  ) !important;
+  color: #fff !important;
+}

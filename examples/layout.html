@@ -1,0 +1,317 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | CWSA</title>
+    <link rel="stylesheet" href="/css/components.css">
+    <link rel="stylesheet" href="/css/colours.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+
+    <style>
+        
+        *:focus {
+            outline: none;
+        }
+
+        body > header {
+  background: #005eb8;
+  color: #fff;
+}
+
+header > div {
+  padding: 10px 15px;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+header > div > div {
+  width: 100%;
+  text-align: center;
+}
+
+header > div > div:nth-child(1) {
+  font-size: 2.8rem;
+  font-weight: 400;
+  text-align: left;
+  flex-shrink: 1;
+  min-width: 100px;
+}
+
+header > div > div img {
+  margin-right: 8px;
+}
+
+header > div > div:nth-last-of-type(1) {
+  text-align: end;
+  flex-shrink: 1;
+}
+
+main {
+  min-height: Calc(100vh - 161px);
+  padding: 20px 10px;
+  margin: auto;
+  max-width: 1250px;
+}
+
+main section {
+  padding: 100px 0px 100px 0px;
+  border-radius: 20pt 40pt;
+}
+
+footer {
+  padding: 15px;
+  background: #d9dde0;
+  min-height: 20px;
+  text-align: center;
+  color: #000;
+  font-size: 0.9rem;
+}
+
+        header nav a, .nhs-user {
+            color: #fff;  
+            text-decoration: none;
+            padding: 6px 8px;
+            margin: 2px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 5px 10px;
+            text-align: center;
+            display: inline-block;
+            font-size: 1.4rem;
+            }
+
+            header nav a:hover {
+            background:#29b6f6;
+            
+            }
+
+            header a {
+                color: #fff;
+                text-decoration: none;
+            }
+
+        .nhs-container {
+            max-width: 1250px;
+            margin: auto;
+        }
+
+        .nhs-search {
+            padding: 0px;
+            margin: 0px;
+            display: inline-flex;
+            height: 40px;
+            
+        }
+            .nhs-search input {
+                padding: 10px;
+                border-radius: 5px 0px 0px 10px;
+                border-width: 0px;
+                width: 120px;
+                background: rgba(255,255,255,0.6);
+                font-size: 1.1rem;
+                height: 20px;
+            }
+            .nhs-search input:focus {
+                background: #fff;
+            }
+            .nhs-search-button {
+                border-width: 0px;
+                font-size: 1.1rem;
+                cursor: pointer;
+                /* padding: 10px; */
+                height: 20px;
+                width: 40px;
+                padding: 10px 0px;
+            }
+            .nhs-search-button:nth-last-of-type(1) {
+                border-radius: 0px 10px 5px 0px;
+            }
+
+.nhs-flex {
+    display: inline-flex;
+}
+
+.nhs-mob-bar {
+    display: none;
+}
+
+.nhs-user {
+    border-radius: 5pt 10pt 0pt 00pt;
+    color: #000;
+}
+
+.nhs-fancy {
+    background-image: linear-gradient( 70.6deg,  rgba(172,30,255,1) 0.3%, rgba(65,35,251,1) 55.8%, rgba(35,251,224,1) 105.1% ); 
+}
+
+.nhs-hero {
+    text-align: center;
+    color: #fff;
+    padding: 75px;
+}
+
+.nhs-hero h1 {
+    color: #fff;
+    font-size: 4rem;
+}
+        @media only screen and (max-width: 740px) {
+
+        .hide-xs {
+            display: none;
+        }
+
+        header > div {
+            padding: 12px 5px;
+            margin: 0px;
+        }
+
+        header nav a, .nhs-user {
+            font-size: 1.2rem;
+            padding: 6px;
+            margin: 2px;
+        }
+
+        .nhs-mob-bar {
+        display: block;
+        padding: 5px;
+        }
+
+        .nhs-search input {
+            width: 100%
+        }
+
+        main {
+            min-height: Calc(100vh - 200px);
+        }
+
+        .nhs-search-button {
+                border-width: 0px;
+                font-size: 1.1rem;
+                cursor: pointer;
+                height: 20px;
+                width: 20px;
+                padding: 10px;
+            }
+    }
+    </style>
+</head>
+<body>
+
+<header class="nhs-bright-blue">
+    <div class="nhs-container">
+        <div>
+
+<a href="/" aria-label="Go to the homepage">
+    CWSA
+        </a>
+    </div>
+                <div class="hide-xs">
+                    <div class="nhs-search">
+                        <input type="text" class="form-control" placeholder="123456" aria-label="Patient Search">                      
+                    <details>
+                        <summary>
+
+                            <div class="nhs-search-button nhs-light-grey"><i class="fas fa-chevron-circle-down"></i></div>
+
+                            <div class="nhs-modal-overlay"></div>
+                        </summary>
+                        <div class="nhs-modal">
+                        <div class="nhs-modal-close">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+                            </div>
+                                      
+                            <div class="nhs-modal-title">
+                            <h1>Advanced Search</h1>
+                            </div>
+                            <div class="nhs-modal-content">
+                            <p>
+                            Search Form
+                            </p>
+                            </div>
+                        </div>
+                    </details>
+                    <a class="nhs-search-button nhs-green" type="button" aria-label="Patient Search Button"><i class="fas fa-search"></i></a>
+                    </div>
+        </div>
+        <div>
+            <nav class="nhs-flex">
+            <a href="#" aria-label="Go ome">
+                <i class="fas fa-home"></i>
+                </a>
+            <a href="#" aria-label="Go to Ward List">
+                <i class="fas fa-bed"></i>
+            </a>
+            <a href="#" aria-label="Go to Caseload List">
+                <i class="fas fa-briefcase-medical"></i>
+            </a>
+
+            <div class="nhs-dropdown">
+                
+            <span class="nhs-user nhs-light-grey">
+                <i class="fas fa-id-card-alt hide-xs">&nbsp;</i>
+                jake
+            </span>
+                <div class="nhs-dropdown-content-right">
+                    <a href="#" class="nhs-red">CWSA Admin</a>
+                    <a href="#">Preferences</a>
+                    <a href="#" class="nhs-yellow">Log Out</a>
+                </div>
+        </div>
+
+        </nav>
+        </div>
+
+    </div>
+    <div class="nhs-mob-bar nhs-grey">
+        <div class="nhs-search">
+        <input type="text" class="form-control" placeholder="123456" aria-label="Patient Search">
+                        
+        <details>
+            <summary>
+
+                <div class="nhs-search-button nhs-light-grey"><i class="fas fa-chevron-circle-down"></i></div>
+
+              <div class="nhs-modal-overlay"></div>
+            </summary>
+            <div class="nhs-modal">
+              <div class="nhs-modal-close">
+                  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+              </div>
+  
+              <div class="nhs-modal-title">
+                <h1>Advanced Search</h1>
+              </div>
+              <div class="nhs-modal-content">
+                <p>
+                  Search Form
+                </p>
+              </div>
+            </div>
+          </details>
+
+        <a class="nhs-search-button nhs-green" type="button"><i class="fas fa-search"></i></a>
+        </div>
+    </div>
+</header>
+
+<main>
+
+       <section class="nhs-hero nhs-fancy">
+           <h1>Welcome to Clinical Workstation Anywhere</h1>
+       </section>
+
+       <h1>Welcome</h1>
+       <p>text</p>
+
+</main>
+
+<footer>
+    <div class="nhs-container">
+    <i class="fas fa-laptop-medical"></i> Clinical Workstation Anywhere (CWSA) © ABUHB 2021.
+</div>
+</footer>
+    
+</body>
+</html>

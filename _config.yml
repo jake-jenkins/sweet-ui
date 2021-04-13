@@ -1,0 +1,22 @@
+title: sweet.ui
+author:
+  name: Jake Jenkins
+  email: sweet@jnx.app
+description: > # this means to ignore newlines until "show_excerpts:"
+  UI Components built for NHS Apps and Websites.
+
+show_excerpts: false
+
+collections:
+  components:
+    output: true
+  colours:
+    output: true
+
+minima:
+  date_format: "%b %-d, %Y"
+
+theme: minima
+
+plugins:
+  - jekyll-seo-tag
