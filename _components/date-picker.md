@@ -1,6 +1,6 @@
 ---
+layout: page
 title: Date Picker
-layout: Page
 ---
 
 # Placeholder
