@@ -19,7 +19,7 @@
   background-color: #ccead7 !important;
 }
 .nhs-green {
-  background-color: #2E7D32 !important;
+  background-color: #2e7d32 !important;
   color: #fff !important;
 }
 .nhs-dark-green {
@@ -77,4 +77,8 @@
     rgba(119, 44, 232, 1) 91.2%
   ) !important;
   color: #fff !important;
+}
+
+.nhs-text-red {
+  color: #da291c !important;
 }

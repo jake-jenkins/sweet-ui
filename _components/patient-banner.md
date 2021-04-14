@@ -24,7 +24,7 @@ Patient banner shows the active patient selected in the system.
         <div class="nhs-grid">
             <div id="pt-ext1">
                 <h4>Alerts</h4>
-                <ul>
+                <ul class="nhs-text-red">
                     <li>Smoker</li>
                     <li>Diabetes</li>
                     <li>Fabulous</li>
@@ -105,7 +105,7 @@ Alerts&lt;/span&gt;<br>
 &nbsp;&nbsp;&nbsp; &lt;div id="pt-ext1"&gt;<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 &lt;h4&gt;Alerts&lt;/h4&gt;<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;ul&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;ul class="nhs-text-red"&gt;<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 &lt;li&gt;Smoker&lt;/li&gt;<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -186,8 +186,6 @@ panel.style.display = "block";<br>
 &lt;/script&gt;
 
 </div>
-
-
 
 <script>
 window.onload = function() {
