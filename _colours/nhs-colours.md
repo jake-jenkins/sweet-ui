@@ -4,6 +4,7 @@ title: "NHS Colours"
 ---
 
 Provided by NHS Brand Guidelines, in priority order. These classes will add background colour to any elements.
+All of these colours are a minimum of AA WCAG Accessibility.  Do not change text color when using these.
 
 <div id="code">
 &lt;div class="<b>nhs-blue</b>"&gt;&lt;/div&gt;
