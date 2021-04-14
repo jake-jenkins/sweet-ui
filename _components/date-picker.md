@@ -3,7 +3,7 @@ layout: page
 title: Date Picker
 ---
 
-# Placeholder
+Placeholder
 
 
 <script>
