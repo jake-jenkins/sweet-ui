@@ -10,7 +10,7 @@ Patient banner shows the active patient selected in the system.
         <div id="pt-crn">Male<br />
             15/03/1984 (37)
         </div>
-        <div id="pt-nhs">NHS 999-999-999<br />
+        <div id="pt-nhs">NHS: 999-999-9999<br />
         CRN: 12345678
         </div>
         <div id="pt-alerts">
@@ -85,7 +85,7 @@ Testerson&lt;/div&gt;<br>
 &nbsp; &lt;div id="pt-crn"&gt;Male&lt;br /&gt;<br>
 &nbsp;&nbsp;&nbsp; 15/03/1984 (37)<br>
 &nbsp; &lt;/div&gt;<br>
-&nbsp; &lt;div id="pt-nhs"&gt;NHS 999-999-999&lt;br
+&nbsp; &lt;div id="pt-nhs"&gt;NHS: 999-999-9999&lt;br
 /&gt;<br>
 &nbsp;&nbsp;&nbsp; CRN: 12345678<br>
 &nbsp; &lt;/div&gt;<br>
